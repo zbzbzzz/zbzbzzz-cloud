@@ -1,0 +1,16 @@
+${AnsiColor.YELLOW}Hello,Welcome to hope-cloud-eureka...${AnsiColor.RED}SpringBoot的版本号:${AnsiColor.RED}${AnsiColor.MAGENTA} ${spring-boot.formatted-version} ${AnsiColor.RED}我的博客:https://aodeng.cc 微信公众号：${AnsiColor.GREEN}低调小熊猫${AnsiColor.MAGENTA}
+
+
+            __                                              ___                       __                                        __
+           /\ \                                            /\_ \                     /\ \                                      /\ \                 ${AnsiColor.YELLOW}
+           \ \ \___     ___   _____      __             ___\//\ \     ___   __  __   \_\ \              __   __  __  _ __    __\ \ \/'\      __     ${AnsiColor.BRIGHT_GREEN}
+            \ \  _ `\  / __`\/\ '__`\  /'__`\ _______  /'___\\ \ \   / __`\/\ \/\ \  /'_` \  _______  /'__`\/\ \/\ \/\`'__\/'__`\ \ , <    /'__`\   ${AnsiColor.BRIGHT_CYAN}
+             \ \ \ \ \/\ \L\ \ \ \L\ \/\  __//\______\/\ \__/ \_\ \_/\ \L\ \ \ \_\ \/\ \L\ \/\______\/\  __/\ \ \_\ \ \ \//\  __/\ \ \\`\ /\ \L\.\_ ${AnsiColor.BLUE}
+              \ \_\ \_\ \____/\ \ ,__/\ \____\/______/\ \____\/\____\ \____/\ \____/\ \___,_\/______/\ \____\\ \____/\ \_\\ \____\\ \_\ \_\ \__/.\_\${AnsiColor.MAGENTA}
+               \/_/\/_/\/___/  \ \ \/  \/____/         \/____/\/____/\/___/  \/___/  \/__,_ /         \/____/ \/___/  \/_/ \/____/ \/_/\/_/\/__/\/_/
+                                \ \_\
+                                 \/_/
+
+
+${AnsiColor.MAGENTA}注册中心 启动 ...
+${AnsiColor.DEFAULT}

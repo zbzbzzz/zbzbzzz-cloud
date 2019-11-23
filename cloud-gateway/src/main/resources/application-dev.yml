@@ -1,0 +1,48 @@
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud-eureka:cloud-eureka@localhost:8761/eureka/
+  instance:
+    #eureka服务器在接收到最后一个心跳之后等待的时间，然后才能从列表中删除此实例 默认90s（开发环境)
+    lease-expiration-duration-in-seconds: 10
+    #eureka客户端需要向eureka服务器发送心跳的频率 默认30s （开发环境)
+    lease-renewal-interval-in-seconds: 1
+spring:
+  cloud:
+    gateway:
+      #cors跨域配置
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+      routes:
+        - id: gateway-service
+          uri: https://blog.csdn.net
+          predicates:
+            - Path=/meteor_93
+      discovery:
+        locator:
+         enabled: true
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
