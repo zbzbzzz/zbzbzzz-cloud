@@ -16,7 +16,7 @@ public class CloudGatewayApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CloudGatewayApplication.class, args);
-		LOGGER.info("zbzbzzz-gateway 网关启动成功！温馨提示：代码千万行，注释第一行，命名不规范，同事泪两行");
+		LOGGER.info("cloud-gateway 网关启动成功");
 	}
 	/*@Bean
 	public RouteLocator myRoutes(RouteLocatorBuilder builder, UriConfiguration uriConfiguration) {

@@ -10,4 +10,5 @@ spring:
       server:
         git:
           uri: https://github.com/java-aodeng/hope-cloud/     # 配置git仓库的地址
-          search-paths: config-repo                          # git仓库地址下的相对地址，可以配置多个，用,分割。
+          default-label: dev                                #配置文件分支
+          search-paths: config                             # git仓库地址下的相对地址，可以配置多个，用,分割。
