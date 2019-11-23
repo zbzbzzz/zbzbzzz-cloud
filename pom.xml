@@ -9,20 +9,6 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
 
-    <!-- 虽然Hope-cloud使用了宽松的GPL协议，但开发不易，希望您可以保留一下版权声明。笔芯~ -->
-    <!--<description>
-        Hope-cloud 一个基于 Spring Boot、Spring Cloud一系列框架构建而成的微服务项目。以实用为初衷
-    </description>
-
-    <developers>
-        <developer>
-            <id>aodeng</id>
-            <name>低调小熊猫</name>
-            <email>java@aodeng.cc</email>
-            <url>https://aodeng.cc</url>
-            <organizationUrl>https://github.com/java-aodeng</organizationUrl>
-        </developer>
-    </developers>-->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
