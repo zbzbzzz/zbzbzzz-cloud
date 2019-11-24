@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-turbine
+  security:
+    basic:
+      enabled: false
+    user:
+      name: cloud-turbine
+      password: ${REGISTRY_SERVER_PASSWORD:cloud-turbine}
+  profiles:
+    active: dev

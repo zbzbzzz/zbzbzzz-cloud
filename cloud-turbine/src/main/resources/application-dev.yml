@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 8005
 eureka:
   client:
     service-url:
@@ -10,5 +10,18 @@ eureka:
     #eureka客户端需要向eureka服务器发送心跳的频率 默认30s （开发环境)
     lease-renewal-interval-in-seconds: 1
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+turbine:
+  app-config: cloud-gateway
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+  combine-host: true
+  instanceUrlSuffix:
+    default: actuator/hystrix.stream

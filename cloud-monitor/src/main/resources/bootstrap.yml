@@ -3,7 +3,7 @@ spring:
     name: cloud-monitor
   security:
     basic:
-      enabled: true
+      enabled: false
     user:
       name: cloud-admin
       password: ${REGISTRY_SERVER_PASSWORD:cloud-admin}

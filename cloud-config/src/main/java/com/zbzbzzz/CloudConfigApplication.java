@@ -1,4 +1,4 @@
-package com.hope;
+package com.zbzbzzz;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +17,7 @@ public class CloudConfigApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CloudConfigApplication.class, args);
-		LOGGER.info("hope-cloud-config 外部配置启动成功！温馨提示：代码千万行，注释第一行，命名不规范，同事泪两行");
+		LOGGER.info("cloud-config 外部配置启动成功");
 	}
 
 }
