@@ -10,6 +10,8 @@
         <module name="cloud-eureka" />
         <module name="cloud-gateway" />
         <module name="cloud-monitor" />
+        <module name="cloud-turbine" />
+        <module name="service-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

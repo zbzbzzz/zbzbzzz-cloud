@@ -9,7 +9,8 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
 
-    <description>zbzbzzz的测试1</description>
+    <description>zbzbzzz的测试3</description>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
