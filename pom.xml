@@ -23,6 +23,8 @@
         <module>cloud-config</module>
         <module>cloud-monitor</module>
         <module>cloud-gateway</module>
+        <module>service-common</module>
+        <module>cloud-turbine</module>
     </modules>
 
     <properties>
