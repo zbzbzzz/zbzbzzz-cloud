@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" filepath="$PROJECT_DIR$/cloud-turbine/cloud-turbine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />
-    </modules>
-  </component>
-</project>

@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
 
-    <description>测试2</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -25,6 +24,7 @@
         <module>cloud-gateway</module>
         <module>service-common</module>
         <module>cloud-turbine</module>
+        <module>service-module</module>
     </modules>
 
     <properties>

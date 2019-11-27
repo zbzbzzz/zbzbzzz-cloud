@@ -12,8 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/service-common/pom.xml" />
+        <option value="$PROJECT_DIR$/service-auth/pom.xml" />
       </set>
     </option>
   </component>
